@@ -16,7 +16,7 @@ const Navigation = ({ menu }) => (
                             <ul>
                                 {mainItem.childItems.nodes.map(childItem => (
                                     <li key={childItem.id}>
-                                        <Link to={childItem.id}>
+                                        <Link to={childItem.url}>
                                             {childItem.label}
                                         </Link>
                                     </li>
